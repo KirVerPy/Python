@@ -1,5 +1,6 @@
 a = 13
 b = int(input())
 for i in range(b):
-    while a:
-        print(i)
+    a = b + i
+    b = a +1
+    print(b)
